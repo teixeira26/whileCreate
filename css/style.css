@@ -242,6 +242,8 @@ a {
   color: #f7463a;
 }
 
+
+
 a,
 a:hover,
 a:focus {
@@ -1005,6 +1007,23 @@ h2{
   position: relative;
   top: 0;
   left: 0;
+}
+
+.premium{
+  height:700px;
+}
+
+@media (max-width: 570px){
+  .premium{
+    height: auto;
+  }
+  
+}
+
+@media (min-width:570px) and (max-width: 769px){
+  .premium{
+    height:900px;
+  }
 }
 
 @media (max-width:946px) {
