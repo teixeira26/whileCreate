@@ -1,20 +1,4 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
 
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-
-PROJECT:	Project Name
-VERSION:	Versoin Number
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
--------------------------------------------------------------------*/
-/*  typography */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:300,400,500,600,700&display=swap");
 html{
   scroll-behavior:smooth;
@@ -136,12 +120,12 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   color: #000;
   border: 0;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%) !important;
+  background: #FF9E00 !important;
   color: #000;
   border: 0;
 }
@@ -152,38 +136,37 @@ h6, .h6 {
   border-color: #f7463a;
 }
 .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%) !important;
+  background: #FF9E00 !important;
   color: #000;
   border-color: #f7463a;
 }
 
 .btn-secondary {
-  background: rgb(70, 178, 255);
+  background: #007AFF;
   color: #000;
   border: 0;
 }
 .btn-secondary:active, .btn-secondary:hover, .btn-secondary.focus, .btn-secondary.active {
-  background: rgb(70, 178, 255) !important;
+  background: #007AFF !important;
   color: #000;
   border: 0;
 }
 
 .btn-outline-light {
-  background: transparent;
+  background:  #FF9E00;
   color: #000;
-  border-color: #000;
+  border: 1px solid #000;
 }
 .btn-outline-light:active, .btn-outline-light:hover, .btn-outline-light.focus, .btn-outline-light.active {
-  background: #000 !important;
+  background: rgb(255,220,100) !important;
   color: #000;
-  border-color: #000;
 }
 
 .btn-transparent {
   color: #f7463a;
   border: 0;
   padding-left: 0;
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -191,7 +174,7 @@ h6, .h6 {
   color: #f7463a;
   border: 0;
   padding-left: 0;
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   box-shadow: none;
@@ -242,6 +225,8 @@ a {
   color: #f7463a;
 }
 
+
+
 a,
 a:hover,
 a:focus {
@@ -288,7 +273,7 @@ a:hover {
 .section-border {
   height: 9px;
   width: 220px;
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   border-radius: 5px;
   margin: 40px auto 90px;
 }
@@ -346,7 +331,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgb(70, 178, 255);
+  background: #007AFF;
   opacity: 0.8;
 }
 .overlay-secondary-half {
@@ -359,7 +344,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, rgb(70, 178, 255) 60%, transparent);
+  background: linear-gradient(to right, #007AFF 60%, transparent);
 }
 .overlay-image {
   position: absolute;
@@ -382,7 +367,7 @@ a:hover {
 }
 
 .bg-secondary {
-  background: rgb(70, 178, 255) !important;
+  background: #007AFF !important;
 }
 
 .text-primary {
@@ -390,11 +375,11 @@ a:hover {
 }
 
 .text-secondary {
-  color: rgb(70, 178, 255) !important;
+  color: #007AFF !important;
 }
 
 .text-gradient-primary {
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -472,7 +457,7 @@ a:hover {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%) !important;
+  background: linear-gradient(37deg, #007AFF 0%,  #FF9E00 100%) !important;
 }
 
 .transition {
@@ -522,7 +507,7 @@ textarea.form-control {
   font-size: 14px;
   left: 0;
   top: 0px;
-  color: rgb(70, 178, 255);
+  color: #007AFF;
   transition: 0.3s ease;
 }
 
@@ -533,7 +518,7 @@ textarea.form-control {
   width: 50px;
   border-radius: 50%;
   line-height: 50px;
-  background: rgb(70, 178, 255);
+  background: #007AFF;
   color: #000;
   text-align: center;
 }
@@ -543,14 +528,13 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: rgb(70, 178, 255);
-
+  background-color: #004CFF;
 }
 
 @media (max-width: 991px) {
   .navigation {
 
-    background: rgb(70, 178, 255);
+    background: #004CFF;
   }
 }
 
@@ -610,13 +594,13 @@ textarea.form-control {
   transition: inherit;
 }
 .hover-bg-secondary:hover {
-  background: rgb(70, 178, 255);
+  background: #007AFF;
 }
 .hover-bg-secondary:hover * {
   color: #000;
 }
 .hover-bg-secondary.active {
-  background: rgb(70, 178, 255);
+  background: #007AFF;
 }
 .hover-bg-secondary.active * {
   color: #000;
@@ -720,7 +704,7 @@ textarea.form-control {
   height: 100%;
   width: 100%;
   transform: rotate(40deg);
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   left: 0;
   top: 60%;
   opacity: 0.5;
@@ -731,7 +715,7 @@ textarea.form-control {
   height: 100%;
   width: 100%;
   transform: rotate(40deg);
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   left: 20%;
   top: 55%;
 }
@@ -793,7 +777,7 @@ footer .overlay-image {
   box-shadow: 0px 9px 24px 0px rgba(19, 5, 44, 0.21);
 }
 .progress-block .progress-bar {
-  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%);
+  background: #FF9E00;
   width: 0;
   transition: all 3s ease-in-out;
   top: 0;
@@ -963,6 +947,7 @@ footer .overlay-image {
 .logo{
   width: 100px;
   margin:0;
+  filter: invert(100%);
 }
 
 #inicio{
@@ -972,12 +957,12 @@ footer .overlay-image {
 .naranja{
   width: 500px;
   height:500px;
-  background-color: rgb(255, 178, 70);
+  background-color: #FF9E00;
 }
 .azul{
   width: 500px;
   height:500px;
-  background-color: rgb(70, 178, 255);
+  background-color: #007AFF;
 }
 
 h2{
@@ -988,11 +973,11 @@ h2{
   color:rgb(35, 35, 35);
 }
 .imagee{
-  background-image:url('../images/banner/banner2.jpg');
+  background-image:url('../images/banner/banneeer.jpg');
   background-size:cover; 
   background-position: 0;
   background-attachment: fixed; 
-  filter: saturate(120%) ;
+  filter: saturate(120%)  contrast(150%) ;
   width: 100vw;
   height: 100vh;
 }
@@ -1007,7 +992,24 @@ h2{
   left: 0;
 }
 
-@media (max-width:946px) {
+.premium{
+  height:700px;
+}
+
+@media (max-width: 570px){
+  .premium{
+    height: auto;
+  }
+  
+}
+
+@media (min-width:570px) and (max-width: 769px){
+  .premium{
+    height:900px;
+  }
+}
+
+@media (max-width:1240px) {
   .imagee{
     background-size:contain;
     background-position: 0 120px;
