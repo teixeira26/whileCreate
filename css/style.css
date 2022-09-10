@@ -1022,3 +1022,52 @@ h2{
 
   }
 }
+
+.createContainer{
+  font-family:'OCR A Extended';
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.contToto{
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  position: absolute;
+}
+.toto{
+
+  position: absolute;
+  top: 0;
+  background-color: white;
+  animation-name: escribir;
+  animation-duration: 3s;
+  width: 400px;
+  height: 150px;
+  animation-iteration-count: infinite;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  animation-direction:alternate-reverse;
+  font-size: 100px;
+  animation-timing-function: steps(20);
+}
+.create{
+  align-self: center;
+  justify-self: center;
+  margin-top: 150px;
+}
+
+@keyframes escribir {
+  from{
+    width: 430px;
+  }
+  to{
+    width: 0px;
+  }
+}
