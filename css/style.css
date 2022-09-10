@@ -120,12 +120,12 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   color: #000;
   border: 0;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-  background: #FF9E00 !important;
+  background: rgb(255, 178, 70) !important;
   color: #000;
   border: 0;
 }
@@ -136,24 +136,24 @@ h6, .h6 {
   border-color: #f7463a;
 }
 .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-  background: #FF9E00 !important;
+  background: rgb(255, 178, 70) !important;
   color: #000;
   border-color: #f7463a;
 }
 
 .btn-secondary {
-  background: #007AFF;
+  background: rgb(70, 178, 255);
   color: #000;
   border: 0;
 }
 .btn-secondary:active, .btn-secondary:hover, .btn-secondary.focus, .btn-secondary.active {
-  background: #007AFF !important;
+  background: rgb(70, 178, 255) !important;
   color: #000;
   border: 0;
 }
 
 .btn-outline-light {
-  background:  #FF9E00;
+  background:  rgb(255, 178, 70);
   color: #000;
   border: 1px solid #000;
 }
@@ -166,7 +166,7 @@ h6, .h6 {
   color: #f7463a;
   border: 0;
   padding-left: 0;
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -174,7 +174,7 @@ h6, .h6 {
   color: #f7463a;
   border: 0;
   padding-left: 0;
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   box-shadow: none;
@@ -273,7 +273,7 @@ a:hover {
 .section-border {
   height: 9px;
   width: 220px;
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   border-radius: 5px;
   margin: 40px auto 90px;
 }
@@ -331,7 +331,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: #007AFF;
+  background: rgb(70, 178, 255);
   opacity: 0.8;
 }
 .overlay-secondary-half {
@@ -344,7 +344,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #007AFF 60%, transparent);
+  background: linear-gradient(to right, rgb(70, 178, 255) 60%, transparent);
 }
 .overlay-image {
   position: absolute;
@@ -367,7 +367,7 @@ a:hover {
 }
 
 .bg-secondary {
-  background: #007AFF !important;
+  background: rgb(70, 178, 255) !important;
 }
 
 .text-primary {
@@ -375,11 +375,11 @@ a:hover {
 }
 
 .text-secondary {
-  color: #007AFF !important;
+  color: rgb(70, 178, 255) !important;
 }
 
 .text-gradient-primary {
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -457,7 +457,7 @@ a:hover {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(37deg, #007AFF 0%,  #FF9E00 100%) !important;
+  background: linear-gradient(37deg, rgb(70, 178, 255) 0%,  rgb(255, 178, 70) 100%) !important;
 }
 
 .transition {
@@ -507,7 +507,7 @@ textarea.form-control {
   font-size: 14px;
   left: 0;
   top: 0px;
-  color: #007AFF;
+  color: rgb(70, 178, 255);
   transition: 0.3s ease;
 }
 
@@ -518,7 +518,7 @@ textarea.form-control {
   width: 50px;
   border-radius: 50%;
   line-height: 50px;
-  background: #007AFF;
+  background: rgb(70, 178, 255);
   color: #000;
   text-align: center;
 }
@@ -594,13 +594,13 @@ textarea.form-control {
   transition: inherit;
 }
 .hover-bg-secondary:hover {
-  background: #007AFF;
+  background: rgb(70, 178, 255);
 }
 .hover-bg-secondary:hover * {
   color: #000;
 }
 .hover-bg-secondary.active {
-  background: #007AFF;
+  background: rgb(70, 178, 255);
 }
 .hover-bg-secondary.active * {
   color: #000;
@@ -704,7 +704,7 @@ textarea.form-control {
   height: 100%;
   width: 100%;
   transform: rotate(40deg);
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   left: 0;
   top: 60%;
   opacity: 0.5;
@@ -715,7 +715,7 @@ textarea.form-control {
   height: 100%;
   width: 100%;
   transform: rotate(40deg);
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   left: 20%;
   top: 55%;
 }
@@ -777,7 +777,7 @@ footer .overlay-image {
   box-shadow: 0px 9px 24px 0px rgba(19, 5, 44, 0.21);
 }
 .progress-block .progress-bar {
-  background: #FF9E00;
+  background: rgb(255, 178, 70);
   width: 0;
   transition: all 3s ease-in-out;
   top: 0;
@@ -957,12 +957,12 @@ footer .overlay-image {
 .naranja{
   width: 500px;
   height:500px;
-  background-color: #FF9E00;
+  background-color: rgb(255, 178, 70);
 }
 .azul{
   width: 500px;
   height:500px;
-  background-color: #007AFF;
+  background-color: rgb(70, 178, 255);
 }
 
 h2{
